@@ -8,7 +8,7 @@ from exceptions import Exception
 
 #f = open(sys.argv[1])
 #hosts = f.readlines()
-hosts = ["192.168.1.20", "192.168.1.30"]
+hosts = [ sys.argv[1], sys.argv[2]]
 user = 'vagrant'
 passw = 'vagrant'
 port = 22
